@@ -5,7 +5,7 @@ function App() {
     <>  
       <body className="body">
         <main>
-            <h1 className="Title">Jake Sondy React Land</h1> 
+            <h1 className="Title">Jake Sondy Land</h1> 
             <div className="mainBox">
                 <p>
                    WELCOME
