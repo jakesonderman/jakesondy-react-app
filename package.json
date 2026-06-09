@@ -1,6 +1,7 @@
 {
   "name": "jakesondyreact",
   "private": false,
+  "homepage": "https://jakesondy.com",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
