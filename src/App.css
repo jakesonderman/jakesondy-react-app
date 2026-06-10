@@ -55,7 +55,7 @@ p {
 
 
 .linkBox {
-    min-height: 50px; 
+    min-height: 6vh; 
     width: 100%; 
     text-align: center;
     /* translate: -0% 180%; */
@@ -64,6 +64,7 @@ p {
     flex-direction: column;
     background-color: hsl(240, 75%, 37%);
     padding-top: 2vh;
+
     /* background-image: url("img/Blue Lace 16.bmp"); */
 }
 
