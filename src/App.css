@@ -32,6 +32,23 @@
     /* backdrop-filter: 0; */
     color: white; 
     border: 3px black solid; 
+    display: flex; 
+    flex-direction: column;
+}
+.btmNavBar {
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+    margin-top: auto;
+    padding: 3%; 
+    display: flex; 
+    border-bottom: black;
+    border-top: white; 
+    border-top-width: 2px; 
+    border-right: #000;
+    border-left: #000;
+    border-style: solid;
+
+
 }
 
 @keyframes boxAnimation {
