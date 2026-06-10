@@ -8,30 +8,30 @@
     margin: 0px; 
     padding: 0px;
     /* background-image: url("img/Blue Monday 16.bmp"); */
-    background-image: url("assets/img/Black Thatch.bmp");
+    background-image: url("assets/img/Moon Flower.jpg");
     animation-name: boxAnimation; 
-    animation-timing-function: steps(8, end);
-    animation-duration: 6s; 
+    animation-timing-function: steps(128, end);
+    animation-duration: 64s; 
     animation-iteration-count: infinite;
 
 }
 .Title {
     text-align: center;
-    color: white; 
-    margin: 0px; 
+    color: black; 
+    margin: 20px; 
     padding: 1%;
 }
 .mainBox {
     height: 75vh;
-    background-image: url("assets/img/Black Thatch.bmp");
-    background-size: 15%;
+    background-image: url("assets/img/Bliss.jpg");
+    background-repeat: 0;
+    /* background-size: 15%; */
     margin-left: 10%; 
     margin-right: 10%; 
+    background-color: aqua;
+    /* backdrop-filter: 0; */
     color: white; 
-    animation-name: boxAnimation; 
-    animation-timing-function: steps(4, end);
-    animation-duration: 3s; 
-    animation-iteration-count: infinite;
+    border: 3px black solid; 
 }
 
 @keyframes boxAnimation {
@@ -39,7 +39,7 @@
         background-position-x: 0%; 
     }
     100% {
-        background-position-x: 15%;
+        background-position-x: 400%;
     }
 }
 
@@ -47,6 +47,10 @@ p {
     padding-left: 18%;
     padding-right: 18%;
     text-align: center;
+    color: black;
+    border: 1px white solid; 
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -58,6 +62,8 @@ p {
     position: absolute; 
     bottom: 0px; 
     flex-direction: column;
+    background-color: hsl(240, 75%, 37%);
+    padding-top: 2vh;
     /* background-image: url("img/Blue Lace 16.bmp"); */
 }
 
