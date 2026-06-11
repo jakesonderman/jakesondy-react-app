@@ -6,9 +6,7 @@
     font-family: "Sans";
     margin: 0px; 
     padding: 0px;
-    /* background-image: url("img/Blue Monday 16.bmp"); */
     background-image: url("assets/img/Moon Flower.jpg");
-
     animation-name: boxAnimation; 
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
@@ -23,7 +21,7 @@
     padding: 1%;
 }
 
-.mainBox {
+.main-box {
     height: 75vh;
     background-image: url("assets/img/Bliss.jpg");
     background-size: 100% 100%; 
@@ -38,18 +36,7 @@
     /* position: relative;  */
     
 }
-
-
-@keyframes boxAnimation {
-    0% {
-        background-position-x: 0%; 
-    }
-    100% {
-        background-position-x: 400%;
-    }
-}
-
-p {
+.main-box-title {
     padding-left: 18%;
     padding-right: 18%;
     text-align: center;
@@ -60,4 +47,12 @@ p {
 }
 
 
+@keyframes boxAnimation {
+    0% {
+        background-position-x: 0%; 
+    }
+    100% {
+        background-position-x: 400%;
+    }
+}
 

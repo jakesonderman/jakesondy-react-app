@@ -1,0 +1,33 @@
+
+.desk-link {
+    height: 30%;
+    width: 20%;
+    position: relative;
+    left: 50;
+    right: 55; 
+    margin: 0px;
+    text-align: center;
+    font-size: 0.9rem; 
+    flex-direction: column;
+}
+
+.desk-img {
+    object-fit: fill;
+    width: 100%; 
+    height: 100%;
+    padding: 0px; 
+    margin: 0px;
+    translate: -3px;
+    flex: 1;
+}
+
+.desk-link p {
+    margin: 0; 
+}
+
+.desk-link:hover {
+    border: 2px blue solid;
+    border-radius: 10%;
+    background-color: hsl(240, 50%, 50%);
+}
+
