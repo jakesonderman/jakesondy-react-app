@@ -8,7 +8,7 @@
     padding: 0px;
     /* background-image: url("img/Blue Monday 16.bmp"); */
     background-image: url("assets/img/Moon Flower.jpg");
-    object-fit: fill;
+
     animation-name: boxAnimation; 
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
@@ -26,16 +26,17 @@
 .mainBox {
     height: 75vh;
     background-image: url("assets/img/Bliss.jpg");
-    background-repeat: 0%;
-    /* background-size: 15%; */
+    background-size: 100% 100%; 
     margin-left: 10%; 
     margin-right: 10%; 
     background-color: aqua;
-    /* backdrop-filter: 0; */
     color: white; 
     border: 3px black solid; 
     display: flex; 
     flex-direction: column;
+    
+    /* position: relative;  */
+    
 }
 
 

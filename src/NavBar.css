@@ -7,7 +7,7 @@
     background-color: rgb(174, 174, 174);
     text-align: center;
     margin-top: auto;
-    padding: 4%; 
+    padding: 2%; 
     display: flex; 
     border-bottom: black;
     border-top: white; 
@@ -16,7 +16,9 @@
     border-left: #000;
     border-style: solid;
     flex-direction: row;
-    height: 7%; 
+    height: 4vh; 
+    /* max-height: 2%; */
+ 
 }
 
 .btmNavBar:hover {
