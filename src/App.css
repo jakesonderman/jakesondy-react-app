@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Sans';
     src: url("assets/fonts/w-95-sans-serif.woff2");
-    
 }
 .body {
     font-family: "Sans";
@@ -15,12 +14,14 @@
     animation-iteration-count: infinite;
 
 }
+
 .Title {
     text-align: center;
     color: black; 
     margin: 20px; 
     padding: 1%;
 }
+
 .mainBox {
     height: 75vh;
     background-image: url("assets/img/Bliss.jpg");
@@ -35,21 +36,7 @@
     display: flex; 
     flex-direction: column;
 }
-.btmNavBar {
-    background-color: rgb(174, 174, 174);
-    text-align: center;
-    margin-top: auto;
-    padding: 3%; 
-    display: flex; 
-    border-bottom: black;
-    border-top: white; 
-    border-top-width: 2px; 
-    border-right: #000;
-    border-left: #000;
-    border-style: solid;
 
-
-}
 
 @keyframes boxAnimation {
     0% {
@@ -71,124 +58,4 @@ p {
 }
 
 
-.linkBox {
-    min-height: 6vh; 
-    width: 100%; 
-    text-align: center;
-    /* translate: -0% 180%; */
-    position: absolute; 
-    bottom: 0px; 
-    flex-direction: column;
-    background-color: hsl(240, 75%, 37%);
-    padding-top: 2vh;
-
-    /* background-image: url("img/Blue Lace 16.bmp"); */
-}
-
-.footer-button {
-     background-color: #c0c0c0;
-     text-align: center; 
-}
-.bg-primary {
-    background-color: #c0c0c0 !important;
-}
-
-.btn {
-    position: relative;
-    transition: all 0.2s ease;
-    letter-spacing: 0.025em;
-    font-size: .6rem;
-    border-radius: 0.125rem;
-    padding: .6rem 2rem;
-    max-height: 37px;
-    margin: 2px; 
-    text-decoration: none;
-    text-decoration-color: black; 
-    color: inherit; 
-}
-.btn:hover {
-    border-radius: 1rem;
-    background-color: grey; 
-}
-
-.btn:before,
-.btn:after {
-    content: '';
-    position: absolute;
-    box-sizing: border-box;
-    display: block;
-    background: transparent;
-    z-index: 9;
-    top: 0;
-    left: 0;
-}
-
-.btn:before {
-    width: 100%;
-    height: 100%;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
-    border-right: 2px solid #858585;
-    border-bottom: 2px solid #858585;
-}
-
-.btn:not(:disabled):not(.disabled):active:before,
-.btn:not(:disabled):not(.disabled):active:focus:before {
-    border-color: transparent;
-    color: #000;
-}
-
-.btn .btn-text {
-    border: 1px solid transparent;
-}
-
-.btn:not(:disabled):not(.disabled):active .btn-text,
-.btn:not(:disabled):not(.disabled):active:focus .btn-text {
-    border: 1px dotted #000;
-}
-
-.border-dark {
-    border: 2px solid #0A0A0A !important;
-}
-
-.border-dark-lg {
-    border: 3px solid #0A0A0A !important;
-}
-
-.btn.btn-pill {
-    border-radius: 2rem;
-}
-
-.btn.btn-circle {
-    border-radius: 50%;
-}
-
-.btn-group .btn,
-.input-group .btn {
-    margin-right: 0;
-    transform: translateY(0);
-}
-
-.btn .toggle-arrow {
-    transition: all 0.2s ease;
-}
-
-.btn[aria-expanded="true"] .toggle-arrow {
-    transform: rotate(180deg);
-}
-
-
-.btn-link {
-    font-weight: 400;
-    box-shadow: none;
-    padding: 0;
-}
-
-.btn-link:hover,
-.btn-link:focus,
-.btn-link:active {
-    background-color: transparent;
-    box-shadow: none;
-    transform: none;
-}
 

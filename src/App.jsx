@@ -1,4 +1,5 @@
 import './App.css'
+import NavBar from './NavBar.jsx'
 
 function App() {
   return(
@@ -10,21 +11,8 @@ function App() {
                 <p>
                    WELCOME
                 </p>
-                <div className="btmNavBar">
-                        <a href= "https://www.youtube.com/@jakesondy"  target="_blank" >Youtube</a>
-                        <a href= "https://soundcloud.com/jake-sondy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"  target="_blank">
-                            Soundcloud</a>
-                        <a href="https://open.spotify.com/artist/4zXJ9PwydnIEW6dPrzId6t?si=WwxZyArpR-uD_IustBZEmQ"  target="_blank">Spotify</a>
-                        <a href="https://jakesondy.bandcamp.com/"  target="_blank" >Bandcamp</a>
-                </div>
+                <NavBar></NavBar>
             </div>
-            {/* <div className="linkBox">
-               <a href= "https://www.youtube.com/@jakesondy"  target="_blank" className="btn btn-primary bg-primary">Youtube</a>
-                <a href= "https://soundcloud.com/jake-sondy?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"  target="_blank" className="btn btn-primary bg-primary">
-                    Soundcloud</a>
-                <a href="https://open.spotify.com/artist/4zXJ9PwydnIEW6dPrzId6t?si=WwxZyArpR-uD_IustBZEmQ"  target="_blank" className="btn btn-primary bg-primary">Spotify</a>
-                <a href="https://jakesondy.bandcamp.com/"  target="_blank" className="btn btn-primary bg-primary">Bandcamp</a>
-            </div> */}
         </main>
         <script src="index.js"></script>
       </body>
