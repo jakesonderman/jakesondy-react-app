@@ -1,8 +1,8 @@
 
 
-.icon-link {
-    /* border-right-color: hsl(0, 0%, 17%);
-    border-right-width: 1px; 
-    border-right-style: solid; */
+.icon-link:hover{
+    border-color: hsl(0, 0%, 17%);
+    border-width: 1px; 
+    border-style: solid;
 
 }

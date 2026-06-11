@@ -16,5 +16,9 @@
     border-left: #000;
     border-style: solid;
     flex-direction: row;
-    
+    height: 10%; 
+}
+
+.btmNavBar:hover {
+    border-top-width: 4px; 
 }
