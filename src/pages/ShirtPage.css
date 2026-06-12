@@ -21,7 +21,7 @@
     padding: 1%;
 }
 
-.main-box {
+.main-shirt-box {
     height: 75vh;
     background-image: url("../assets/img/Bliss.jpg");
     background-size: 100% 100%; 
@@ -32,10 +32,21 @@
     border: 3px black solid; 
     display: flex; 
     flex-direction: column;
-    
+    text-align: center; 
+    color: black; 
     /* position: relative;  */
     
 }
+.shirt-card {
+    border: 2px black solid;
+}
+
+.shirt-picture-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .main-box-title {
     padding-left: 18%;
     padding-right: 18%;
