@@ -136,3 +136,38 @@
     }
 }
 
+
+.stripe-buy-button:hover{
+    border-right: 0.3em rgb(255, 255, 255) solid;
+    border-left: 0.3em rgb(255, 255, 255) solid;
+    border-top: 0.3em rgb(0, 0, 0) solid;
+    border-bottom: 0.3em rgb(0, 0, 0) solid;
+    background-color: hsl(0, 0%, 75%);
+    cursor: pointer;
+} 
+.stripe-buy-button{
+    
+    border-right: 0.3em black solid;
+    border-left: 0.3em black solid;
+    border-top: 0.3em rgb(243, 243, 243) solid;
+    border-bottom: 0.3em rgb(243, 243, 243) solid;
+    border-radius: 10%;
+    object-fit: fill;
+    min-width: 35px;
+    width: 6em; 
+    margin: 1em;
+    text-align: center;
+    font-size: 1em;
+    
+}
+.stripe-buy-button a {
+    border: 0.3em black solid; 
+}
+.stripe-buy-button{
+    object-fit: fill;
+    width: 100%; 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
