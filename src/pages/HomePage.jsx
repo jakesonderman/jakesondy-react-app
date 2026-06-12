@@ -15,7 +15,7 @@ export default function HomePage() {
                 <p className="main-box-title">
                    WELCOME
                 </p>
-                <Link to="/shirt" className="shirt-page-link">
+                <Link to="/shirt" className="page-link">
                   <DeskLink img={JakeSondyFrontPng} name="shirt"/>
                 </Link>
                 <NavBar></NavBar>

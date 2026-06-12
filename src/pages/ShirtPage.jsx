@@ -1,12 +1,27 @@
 import './ShirtPage.css';
+import DeskLink from '../components/DeskLink.jsx'
+import { Link } from 'react-router-dom'
+import JakeSondyFrontPng from '../assets/merch/jakeSondyFront.png'
 
-function ShirtPage() {
+
+
+export default function ShirtPage() {
     return (
-        <div className="shirt-page">
-            <h1>Shirt Page</h1>
-            <p>This is the shirt page.</p>
-        </div>
+        <body className="body">
+        <main>
+            <h1 className="Title">Jake Sondy Land</h1> 
+            <div className="main-box">
+                <p className="main-box-title">
+                   WELCOME
+                </p>
+                <Link to="/shirt" className="page-link">
+                  <DeskLink img={JakeSondyFrontPng} name="shirt"/>
+                </Link>
+                <NavBar></NavBar>
+            </div>
+        </main>
+        <script src="index.js"></script>
+      </body>
     );
 }
 
-export default ShirtPage;
