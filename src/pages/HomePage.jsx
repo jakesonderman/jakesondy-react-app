@@ -12,13 +12,15 @@ export default function HomePage() {
         <main>
             <h1 className="Title">Jake Sondy Land</h1> 
             <div className="main-box">
-                <NavBar></NavBar>
-                <Link to="/shirt" className="page-link">
-                  <DeskLink img={JakeSondyFrontPng} name="shirt"/>
-                </Link>
-               <p className="main-box-title">
+                <h1 className="main-box-title">
                    WELCOME
-                </p>
+                </h1>
+                <div className="desktop">
+                    <Link to="/shirt" className="page-link-1">
+                        <DeskLink img={JakeSondyFrontPng} name="shirt"/>
+                    </Link>
+                </div>
+                <NavBar className="navbar"></NavBar>
             </div>
         </main>
         <script src="index.js"></script>

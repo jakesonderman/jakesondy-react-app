@@ -6,7 +6,6 @@
 .btmNavBar {
     background-color: rgb(174, 174, 174);
     text-align: center;
-    margin-top: auto;
     padding: 2%;
     border-bottom: black;
     border-top: white; 
@@ -16,6 +15,7 @@
     border-style: solid;
     display: flex; 
     flex-direction: row;
+    align-items: center;
     
     /* max-height: 2%; */
  

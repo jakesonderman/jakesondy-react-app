@@ -30,24 +30,49 @@
     background-color: aqua;
     color: white; 
     border: 3px black solid;     
-    display: flex;
-    flex-direction: column-reverse;
+    /* display: flex;
+    flex-direction: column-reverse; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-areas: 
+    "main-box-title main-box-title main-box-title"
+    "desktop desktop desktop"
+    "desktop desktop desktop"
+    "desktop desktop desktop"
+    "navbar navbar navbar";
+    justify-content: center;
+}
+
+.btmNavBar {
+    grid-area: navbar;
+}
+
+.desktop {
+    padding: 2px;
+    grid-area: desktop;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    ".    page-link-1    ."
+    ".        .          ."
+    ".        .          .";
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .main-box-title {
-    padding-left: 18%;
-    padding-right: 18%;
-    text-align: center;
+    grid-area: main-box-title;
+    text-align: right;
     color: black;
-    margin-left: 40px;
-    margin-right: 40px;
+    font-size: 1em;
 }
 
-.page-link {
+.page-link-1 {
+    grid-area: page-link-1;
     text-decoration: none;
     color: black;
-    margin-left: 40px;
-    margin-right: 40px;
 }
 
 
