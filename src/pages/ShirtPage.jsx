@@ -13,7 +13,6 @@ export default function ShirtPage() {
         <main>
             <h1 className="shirtpage-Title">Shirtsss</h1> 
             <div className="main-shirt-box">
-                <NavBar></NavBar>
                 <div className="shirt-card">
                     <h1>Main and Only Shirt</h1>
                     <div className="shirt-picture-card">
@@ -31,6 +30,7 @@ export default function ShirtPage() {
                             </select>
                     </div>
                 </div>
+                <NavBar className="btmNavBar"></NavBar>
             </div>
         </main>
         <script src="index.js"></script>

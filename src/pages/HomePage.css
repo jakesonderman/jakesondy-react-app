@@ -2,6 +2,7 @@
     font-family: 'Sans';
     src: url("../assets/fonts/w-95-sans-serif.woff2");
 }
+
 .body {
     font-family: "Sans";
     margin: 0px; 
@@ -14,6 +15,15 @@
 
 }
 
+@keyframes boxAnimation {
+    0% {
+        background-position-x: 0%; 
+    }
+    100% {
+        background-position-x: 400%;
+    }
+}
+
 .Title {
     text-align: center;
     color: hsl(0, 0%, 0%); 
@@ -21,19 +31,20 @@
     padding: 1%;
     text-shadow: 1px 1px 1px rgb(93, 93, 93);
 }
-
+/* ------------------ main box styling ------------------ */
 .main-box {
     height: 75vh;
+    margin-left: 10%; 
+    margin-right: 10%;
+    border: 3px black solid; 
+
     background-image: url("../assets/img/Bliss.jpg");
     background-size: 100% 100%; 
-    margin-left: 10%; 
-    margin-right: 10%; 
     background-color: aqua;
     color: white; 
-    border: 3px black solid;     
-    /* display: flex;
-    flex-direction: column-reverse; */
+        
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr;
     grid-template-areas: 
@@ -41,12 +52,15 @@
     "desktop desktop desktop"
     "desktop desktop desktop"
     "desktop desktop desktop"
-    "navbar navbar navbar";
-    justify-content: center;
+    "navbar navbar navbar";  
 }
 
-.btmNavBar {
-    grid-area: navbar;
+.main-box-title {
+    grid-area: main-box-title;
+    text-align: right;
+    color: black;
+    font-size: 1em;
+    text-shadow: 1px 1px 1px white;
 }
 
 .desktop {
@@ -63,27 +77,12 @@
     align-items: top;
 }
 
-.main-box-title {
-    grid-area: main-box-title;
-    text-align: right;
-    color: black;
-    font-size: 1em;
-    text-shadow: 1px 1px 1px white;
-}
-
 .page-link-1 {
     grid-area: page-link-1;
     text-decoration: none;
     color: black;
 }
 
-
-@keyframes boxAnimation {
-    0% {
-        background-position-x: 0%; 
-    }
-    100% {
-        background-position-x: 400%;
-    }
+.btmNavBar {
+    grid-area: navbar;
 }
-

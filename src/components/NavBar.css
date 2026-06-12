@@ -20,6 +20,7 @@
     /* max-height: 2%; */
  
 }
+
 @media(min-width:56em) {
     .btmNavBar {
         height: 4vh;

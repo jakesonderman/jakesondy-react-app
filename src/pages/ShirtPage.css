@@ -7,7 +7,6 @@
     margin: 0px; 
     padding: 0px;
     background-image: url("../assets/img/Moon Flower.jpg");
-
     animation-name: shirtAnimation; 
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
@@ -24,6 +23,7 @@
 
 .main-shirt-box {
     height: 75vh;
+    font-size: 0.5em;
     background-image: url("../assets/img/Bliss.jpg");
     background-size: 100% 100%; 
     margin-left: 10%; 
@@ -31,28 +31,35 @@
     background-color: aqua;
     color: white; 
     border: 3px black solid; 
-    display: flex; 
-    flex-direction: column-reverse;
     text-align: center; 
     color: black; 
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 8fr 1fr;
+    grid-template-areas: 
+    "shirt-card" "navbar";
     
 }
 
 .shirt-card {
-    border-right: 1vb black solid; 
-    border-left: 1vb black solid; 
-    border-bottom: 1vb white solid; 
-    border-top: 1vb white solid; 
+    grid-area: shirt-card;
+    border-right: 3px black solid; 
+    border-left: 3px black solid; 
+    border-bottom: 3px white solid; 
+    border-top: 3px white solid; 
     background-color: rgb(156, 156, 156);
     text-shadow: 1px 1px 1px white;
 }
 
+.btmNavBar {
+    grid-area: navbar;
+}
+
 .shirt-card h1{
     background-color: hsl(309, 100%, 73%);
-    padding: 1vb;
-    border-bottom: 1vb black solid; 
-    border-top: 1vb black solid;
+    padding: 2%;
+    border-bottom: 3px black solid; 
+    border-top: 3px black solid;
     margin: 0;
 }
 
@@ -86,23 +93,6 @@
 .shirt-dropdown select::picker-icon {
     color: rgb(108, 108, 252);
 }
-
-.main-box-title {
-    padding-left: 18%;
-    padding-right: 18%;
-    text-align: center;
-    color: black;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.page-link {
-    text-decoration: none;
-    color: black;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
 
 @keyframes shirtAnimation {
     0% {
