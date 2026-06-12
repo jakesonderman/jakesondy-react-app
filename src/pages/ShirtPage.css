@@ -11,7 +11,6 @@
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
     animation-iteration-count: infinite;
-
 }
 
 .Title {
@@ -19,6 +18,7 @@
     color: black; 
     margin: 20px; 
     padding: 1%;
+    text-shadow: 1px 1px 1px black;
 }
 
 .main-shirt-box {
@@ -34,17 +34,31 @@
     flex-direction: column;
     text-align: center; 
     color: black; 
-    /* position: relative;  */
     
 }
+
 .shirt-card {
-    border: 2px black solid;
+    border-right: 1vb black solid; 
+    border-left: 1vb black solid; 
+    border-bottom: 1vb white solid; 
+    border-top: 1vb white solid; 
+    background-color: rgb(156, 156, 156);
+    text-shadow: 1px 1px 1px white;
+}
+
+.shirt-card h1{
+    background-color: hsl(309, 100%, 73%);
+    padding: 1vb;
+    border-bottom: 1vb black solid; 
+    border-top: 1vb black solid;
+    margin: 0;
 }
 
 .shirt-picture-card {
     display: flex;
     flex-direction: row;
     width: 100%;
+    border: none;
 }
 
 .main-box-title {

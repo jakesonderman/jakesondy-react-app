@@ -8,10 +8,11 @@
     margin: 0px;
     translate: -3px;
     flex: 1;
+    border: none;
 }
-.shirt-link:hover {
+/* .shirt-link:hover {
     border: 2px blue solid;
     border-radius: 10%;
     background-color: hsl(240, 50%, 50%);
-}
+} */
 

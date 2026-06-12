@@ -2,7 +2,7 @@ import './ShirtCard.css'
 
 function ShirtCard(props) {
     return(
-        <div className="shirt-card">
+        <div>
             <img className="shirt-img" src={props.img}/>
         </div>
     ); 
