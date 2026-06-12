@@ -17,8 +17,17 @@ export default function ShirtPage() {
                     <h1>Main and Only Shirt</h1>
                     <div className="shirt-picture-card">
                         <ShirtCard img={JakeSondyFrontPng} name="shirt"/>
-                        <ShirtCard img={JakeSondyBackPng} name="shirt"/>
+                        <ShirtCard img={JakeSondyBackPng} name="shirt"/>  
                     </div>
+                    <label for="options">Size:</label>
+                        <select id="options" name="options">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                        </select>
+                    
                 </div>
                 <NavBar></NavBar>
             </div>
