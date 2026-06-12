@@ -5,7 +5,7 @@ import JakeSondyFrontPng from '../assets/merch/jakeSondyFront.png'
 import JakeSondyBackPng from '../assets/merch/jakeSondyBack.png'
 import NavBar from '../components/NavBar.jsx'
 import ShirtCard from '../components/ShirtCard.jsx'
-
+import TextLink from '../components/TextLink.jsx';
 
 export default function ShirtPage() {
     return (
@@ -28,7 +28,9 @@ export default function ShirtPage() {
                                 <option value="xl">XL</option>
                                 <option value="xxl">XXL</option>
                             </select>
+                        <TextLink name="$BUY$"/>
                     </div>
+                    
                 </div>
                 <NavBar className="btmNavBar"></NavBar>
             </div>
