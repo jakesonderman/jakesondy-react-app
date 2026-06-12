@@ -1,14 +1,14 @@
 
 
 .shirt-img {
-    object-fit: fill;
+    
     width: 100%; 
     height: 100%;
     padding: 0px; 
     margin: 0px;
     translate: -3px;
-    flex: 1;
     border: none;
+    object-fit: fill;
 }
 /* .shirt-link:hover {
     border: 2px blue solid;

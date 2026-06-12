@@ -15,100 +15,110 @@
 }
 
 .shirtpage-Title {
-    text-align: center;
-    color: white; 
     margin: 20px; 
     padding: 1%;
+    text-align: center;
+    color: white;
     text-shadow: 1px 1px 1px red;
 }
 
 .main-shirt-box {
-    height: 65vh;
     box-sizing: border-box;
-    background-image: url("../assets/img/Bliss.jpg");
-    background-size: 100% 100%; 
     margin-left: 10%; 
     margin-right: 10%; 
-    background-color: aqua;
-    color: white; 
     border: 3px black solid; 
+    
+    background-image: url("../assets/img/Bliss.jpg");
+    background-size: 100% 100%; 
+    background-color: aqua;
+
+    color: white; 
+    height: 80vh;
     text-align: center; 
     color: black; 
+
     display: grid; 
     grid-template-columns: 1fr;
     grid-template-rows: 9fr 1fr;
     grid-template-areas: 
     "shirt-card" 
     "navbar";
+    object-fit: fill;
+    overflow: hidden; 
 }
 
 .shirt-card {
-    box-sizing: border-box;
-    height: 100%; 
     grid-area: shirt-card;
+    box-sizing: border-box;
     border-right: 3px black solid; 
     border-left: 3px black solid; 
     border-bottom: 3px white solid; 
     border-top: 3px white solid; 
     background-color: rgb(156, 156, 156);
+    height: 100%; 
     text-shadow: 1px 1px 1px white;
-    
-}
+    display: flex; 
+    flex-direction: column;
+    object-fit: fill;
+}   
 
 .btmNavBar {
+    box-sizing: border-box;
     height: 100%;
     grid-area: navbar;
 }
 
 .shirt-card h1{
-    align-content: center; 
     box-sizing: border-box;
-    width: 100%; 
-    height: 20%; 
-    background-color: hsl(309, 100%, 73%);
-    font-size: 150%;
-    padding: 2%;
     border-bottom: 3px black solid; 
     border-top: 3px black solid;
+    background-color: hsl(309, 100%, 73%);
+    padding: 2%;
+    width: 100%; 
+    height: 10vh; 
+    font-size: 150%;
     margin: 0px;
+    align-content: top; 
 }
 
 .shirt-picture-card {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 50%;
+    height: 40vh;
     border: none;
+    object-fit: fill;
 }
 
 .shirt-dropdown {
-    height: 10%; 
+    box-sizing: border-box;
+    padding: 3%;
+    height: 25%; 
     width: 100%; 
     display: flex; 
     flex-direction: row;
     text-align: center;
-    padding: 2%;
     justify-content: center;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    padding: 3%;
 }
+
 .shirt-dropdown label {
     margin: 1em;
 }
 .shirt-dropdown select{
-    font-family: 'Sans';
-    text-align: center;
-    padding: 1%;
-    margin-left: 2%;
     appearance: none; 
-    width: 20%; 
-    font-size: 1rem;
-    background-color: hsl(186, 75%, 68%);
     border: 2px black solid; 
     border-radius: 10%;
+    background-color: hsl(186, 75%, 68%);
+    padding: 1%;
+    padding-left: 2%;
+    width: 20%;
+    font-family: 'Sans';
+    text-align: center;
     
+    font-size: 1rem;
 }
 
 .shirt-dropdown select::picker-icon {
