@@ -9,9 +9,9 @@ import ShirtCard from '../components/ShirtCard.jsx'
 
 export default function ShirtPage() {
     return (
-        <body className="body">
+        <body className="shirtpage-body">
         <main>
-            <h1 className="Title">Shirtsss</h1> 
+            <h1 className="shirtpage-Title">Shirtsss</h1> 
             <div className="main-shirt-box">
                 <div className="shirt-card">
                     <h1>Main and Only Shirt</h1>

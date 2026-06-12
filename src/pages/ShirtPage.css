@@ -2,23 +2,24 @@
     font-family: 'Sans';
     src: url("../assets/fonts/w-95-sans-serif.woff2");
 }
-.body {
+.shirtpage-body {
     font-family: "Sans";
     margin: 0px; 
     padding: 0px;
     background-image: url("../assets/img/Moon Flower.jpg");
-    animation-name: boxAnimation; 
+
+    animation-name: shirtAnimation; 
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
     animation-iteration-count: infinite;
 }
 
-.Title {
+.shirtpage-Title {
     text-align: center;
-    color: black; 
+    color: white; 
     margin: 20px; 
     padding: 1%;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px red;
 }
 
 .main-shirt-box {
@@ -78,7 +79,7 @@
 }
 
 
-@keyframes boxAnimation {
+@keyframes shirtAnimation {
     0% {
         background-position-x: 0%; 
     }
