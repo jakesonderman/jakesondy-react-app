@@ -12,6 +12,7 @@
     border-left: #000;
     border-style: solid;
     background-color: rgb(174, 174, 174);
+    height: 100%; 
     padding: 2%;
     display: flex; 
     flex-direction: row;
@@ -19,7 +20,7 @@
     text-align: center;
 }
 
-@media(min-width:56em) {
+@media(min-width:600px) {
     .btmNavBar {
         height: 4vh;
     }

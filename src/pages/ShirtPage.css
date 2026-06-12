@@ -44,7 +44,7 @@
     "shirt-card" 
     "navbar";
     object-fit: fill;
-    overflow: hidden; 
+    /* overflow: hidden;  */
 }
 
 .shirt-card {
@@ -73,10 +73,10 @@
     border-bottom: 3px black solid; 
     border-top: 3px black solid;
     background-color: hsl(309, 100%, 73%);
-    padding: 2%;
+    padding: 1%;
     width: 100%; 
-    height: 10vh; 
-    font-size: 150%;
+    /* height: 10vh;  */
+    font-size: 120%;
     margin: 0px;
     align-content: top; 
 }
@@ -84,6 +84,8 @@
 .shirt-picture-card {
     display: flex;
     flex-direction: row;
+    justify-items: center;
+    justify-content: center;
     width: 100%;
     height: 40vh;
     border: none;
