@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Sans';
+    src: url("../assets/fonts/w-95-sans-serif.woff2");
+}
+.body {
+    font-family: "Sans";
+    margin: 0px; 
+    padding: 0px;
+    background-image: url("../assets/img/Moon Flower.jpg");
+    animation-name: boxAnimation; 
+    animation-timing-function: steps(128, end);
+    animation-duration: 64s; 
+    animation-iteration-count: infinite;
+
+}
+
+.Title {
+    text-align: center;
+    color: black; 
+    margin: 20px; 
+    padding: 1%;
+}
+
+.main-box {
+    height: 75vh;
+    background-image: url("../assets/img/Bliss.jpg");
+    background-size: 100% 100%; 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    background-color: aqua;
+    color: white; 
+    border: 3px black solid; 
+    display: flex; 
+    flex-direction: column;
+    
+    /* position: relative;  */
+    
+}
+.main-box-title {
+    padding-left: 18%;
+    padding-right: 18%;
+    text-align: center;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+@keyframes boxAnimation {
+    0% {
+        background-position-x: 0%; 
+    }
+    100% {
+        background-position-x: 400%;
+    }
+}
+

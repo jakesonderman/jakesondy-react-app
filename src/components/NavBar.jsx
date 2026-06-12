@@ -1,9 +1,9 @@
 import "./NavBar.css"
 import IconLink from './IconLink.jsx'
-import ytIconJpg from './assets/icons/ogyt.jpg'
-import scIconPng from './assets/icons/ogsc.png'
-import spIconPng from './assets/icons/spotify.png'
-import bcIconPng from './assets/icons/ogbc.png'
+import ytIconJpg from '../assets/icons/ogyt.jpg'
+import scIconPng from '../assets/icons/ogsc.png'
+import spIconPng from '../assets/icons/spotify.png'
+import bcIconPng from '../assets/icons/ogbc.png'
 
 
 
