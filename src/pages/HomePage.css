@@ -45,6 +45,13 @@
     margin-right: 40px;
 }
 
+.shirt-page-link {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 
 @keyframes boxAnimation {
     0% {
