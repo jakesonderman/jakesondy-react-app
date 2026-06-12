@@ -63,6 +63,30 @@
     border: none;
 }
 
+.shirt-dropdown {
+    display: flex; 
+    flex-direction: row;
+    text-align: center;
+    position: relative; 
+    left: 26%;
+    padding: 2%;
+}
+
+.shirt-dropdown select{
+    font-family: 'Sans';
+    text-align: center;
+    padding: 0%;
+    margin-left: 2%;
+    appearance: none; 
+    width: 20%; 
+    font-size: 1rem;
+    background-color: hsl(186, 75%, 68%);
+}
+
+.shirt-dropdown select::picker-icon {
+    color: rgb(108, 108, 252);
+}
+
 .main-box-title {
     padding-left: 18%;
     padding-right: 18%;
