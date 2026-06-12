@@ -16,9 +16,10 @@
 
 .Title {
     text-align: center;
-    color: black; 
+    color: hsl(0, 0%, 0%); 
     margin: 20px; 
     padding: 1%;
+    text-shadow: 1px 1px 1px rgb(93, 93, 93);
 }
 
 .main-box {
@@ -52,14 +53,14 @@
     padding: 2px;
     grid-area: desktop;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 8em 8em 8em;
     grid-template-areas:
     ".    page-link-1    ."
     ".        .          ."
     ".        .          .";
     grid-auto-columns: 1fr;
     justify-items: center;
-    align-items: center;
+    align-items: top;
 }
 
 .main-box-title {
@@ -67,6 +68,7 @@
     text-align: right;
     color: black;
     font-size: 1em;
+    text-shadow: 1px 1px 1px white;
 }
 
 .page-link-1 {
