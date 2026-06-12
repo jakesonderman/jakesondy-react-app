@@ -4,15 +4,15 @@
 }
 
 .body {
-    font-family: "Sans";
     margin: 0px; 
-    padding: 0px;
     background-image: url("../assets/img/Moon Flower.jpg");
+    padding: 0px;
+    
     animation-name: boxAnimation; 
     animation-timing-function: steps(128, end);
     animation-duration: 64s; 
     animation-iteration-count: infinite;
-
+    font-family: "Sans";
 }
 
 @keyframes boxAnimation {
@@ -25,23 +25,24 @@
 }
 
 .Title {
-    text-align: center;
-    color: hsl(0, 0%, 0%); 
     margin: 20px; 
     padding: 1%;
+    color: hsl(0, 0%, 0%); 
+    text-align: center;
+    font-size: 175%; 
     text-shadow: 1px 1px 1px rgb(93, 93, 93);
 }
 /* ------------------ main box styling ------------------ */
 .main-box {
-    height: 75vh;
     margin-left: 10%; 
     margin-right: 10%;
     border: 3px black solid; 
-
     background-image: url("../assets/img/Bliss.jpg");
     background-size: 100% 100%; 
     background-color: aqua;
+    height: 80vh;
     color: white; 
+    overflow: hidden; 
         
     display: grid;
     justify-content: center;
@@ -57,22 +58,22 @@
 
 .main-box-title {
     grid-area: main-box-title;
-    text-align: right;
+    text-align: center;
     color: black;
     font-size: 1em;
     text-shadow: 1px 1px 1px white;
 }
 
 .desktop {
-    padding: 2px;
     grid-area: desktop;
+    margin: 0px; 
+    overflow: hidden; 
     display: grid;
-    grid-template-rows: 8em 8em 8em;
+    grid-template-rows: 33.3% 33.3% 33.3%;
     grid-template-areas:
     ".    page-link-1    ."
     ".        .          ."
     ".        .          .";
-    grid-auto-columns: 1fr;
     justify-items: center;
     align-items: top;
 }

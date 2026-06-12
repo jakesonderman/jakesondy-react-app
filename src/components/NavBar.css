@@ -4,21 +4,19 @@
     
 }
 .btmNavBar {
-    background-color: rgb(174, 174, 174);
-    text-align: center;
-    padding: 2%;
+    box-sizing: border-box;
     border-bottom: black;
     border-top: white; 
     border-top-width: 2px; 
     border-right: #000;
     border-left: #000;
     border-style: solid;
+    background-color: rgb(174, 174, 174);
+    padding: 2%;
     display: flex; 
     flex-direction: row;
     align-items: center;
-    max-height: 10vh;
-    /* max-height: 2%; */
- 
+    text-align: center;
 }
 
 @media(min-width:56em) {
