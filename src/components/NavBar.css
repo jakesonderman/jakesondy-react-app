@@ -7,16 +7,16 @@
     background-color: rgb(174, 174, 174);
     text-align: center;
     margin-top: auto;
-    padding: 2%; 
-    display: flex; 
+    padding: 2%;
     border-bottom: black;
     border-top: white; 
     border-top-width: 2px; 
     border-right: #000;
     border-left: #000;
     border-style: solid;
+    display: flex; 
     flex-direction: row;
-    height: 4vh; 
+    
     /* max-height: 2%; */
  
 }

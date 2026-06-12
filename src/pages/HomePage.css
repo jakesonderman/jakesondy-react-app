@@ -29,13 +29,11 @@
     margin-right: 10%; 
     background-color: aqua;
     color: white; 
-    border: 3px black solid; 
-    display: flex; 
-    flex-direction: column;
-    
-    /* position: relative;  */
-    
+    border: 3px black solid;     
+    display: flex;
+    flex-direction: column-reverse;
 }
+
 .main-box-title {
     padding-left: 18%;
     padding-right: 18%;
