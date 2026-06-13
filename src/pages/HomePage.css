@@ -69,13 +69,47 @@
     margin: 0px; 
     overflow: hidden; 
     display: grid;
-    grid-template-rows: 33.3% 33.3% 33.3%;
+    grid-template-columns: 100px 100px 100px;
     grid-template-areas:
     ".    page-link-1    ."
     ".        .          ."
     ".        .          .";
     justify-items: center;
     align-items: top;
+}
+
+@media(max-width: 800px) {
+    .desktop {
+        grid-template-columns: 150px 150px 150px;
+        grid-template-areas:
+        ".    page-link-1    ."
+        ".        .          ."
+        ".        .          .";
+        justify-items: center;
+        align-items: top;
+    }
+}
+
+@media(max-width: 400px) {
+    .desktop {
+        grid-template-columns: 100px 100px 100px;
+        grid-template-areas:
+        ".    page-link-1    ."
+        ".        .          ."
+        ".        .          .";
+        justify-items: center;
+        align-items: top;
+    }
+}
+
+@media(max-width: 200px) {
+    .desktop {
+        grid-template-columns: 100px;
+        grid-template-areas:
+        "page-link-1"
+        "."
+        ".";
+    }
 }
 
 .page-link-1 {
