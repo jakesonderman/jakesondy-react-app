@@ -41,7 +41,8 @@ export default function ShirtPage() {
                             </select>
                         <TextLink name="$BUY$" link={shirtLink}/>
                     </div>
-                    
+                    <p>Basic shirt:0 They r super soft. 
+                       Contact me if u want multiple.</p>
                 </div>
                 <NavBar className="btmNavBar"></NavBar>
             </div>
