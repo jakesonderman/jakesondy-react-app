@@ -20,6 +20,7 @@
     text-align: center;
 }
 
+
 @media(min-width:600px) {
     .btmNavBar {
         height: 4vh;
@@ -28,4 +29,8 @@
 
 .btmNavBar:hover {
     border-top-width: 4px; 
+}
+
+.btmNavBar:focus {
+    background-color: rgb(50, 50, 50);
 }
