@@ -69,11 +69,11 @@
     margin: 0px; 
     overflow: hidden; 
     display: grid;
-    grid-template-columns: 100px 100px 100px;
+    grid-template-columns: 200px 200px 200px;
     grid-template-areas:
-    ".    page-link-1    ."
-    ".        .          ."
-    ".        .          .";
+    ".    page-link-1    . ."
+    ".        .          . ."
+    ".        .          . .";
     justify-items: center;
     align-items: top;
 }
