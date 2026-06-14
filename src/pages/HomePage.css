@@ -69,10 +69,11 @@
     margin: 0px; 
     overflow: hidden; 
     display: grid;
-    grid-template-columns: 200px 200px 200px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 150px 150px 150px;
     grid-template-areas:
     ".    page-link-1    . ."
-    ".        .          . ."
+    ".        .          page-link-2 ."
     ".        .          . .";
     justify-items: center;
     align-items: top;
@@ -83,7 +84,19 @@
         grid-template-columns: 150px 150px 150px;
         grid-template-areas:
         ".    page-link-1    ."
-        ".        .          ."
+        ".        .          page-link-2"
+        ".        .          .";
+        justify-items: center;
+        align-items: top;
+    }
+}
+
+@media(max-width: 600px) {
+    .desktop {
+        grid-template-columns: 100px 100px 100px;
+        grid-template-areas:
+        ".    page-link-1    ."
+        ".        .          page-link-2"
         ".        .          .";
         justify-items: center;
         align-items: top;
@@ -92,28 +105,24 @@
 
 @media(max-width: 400px) {
     .desktop {
-        grid-template-columns: 100px 100px 100px;
-        grid-template-areas:
-        ".    page-link-1    ."
-        ".        .          ."
-        ".        .          .";
-        justify-items: center;
-        align-items: top;
-    }
-}
-
-@media(max-width: 200px) {
-    .desktop {
         grid-template-columns: 100px;
         grid-template-areas:
         "page-link-1"
-        "."
+        "page-link-2"
         ".";
     }
 }
 
+.page-link-2 {
+    grid-area: page-link-2;
+    height: 65%; 
+    width: 65%; 
+}
 .page-link-1 {
     grid-area: page-link-1;
+}
+
+.page-link {
     text-decoration: none;
     color: black;
 }
