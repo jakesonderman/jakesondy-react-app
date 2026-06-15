@@ -8,6 +8,8 @@ import discWebp from '../assets/icons/disc.webp'
 import itunesWebp from '../assets/icons/itunes.webp'
 import mailJpg from   '../assets/icons/mail.jpeg'
 import homeWebp from '../assets/icons/home.webp'
+import gitPng from '../assets/icons/git.png'
+
 
 function NavBar() {
     return(
@@ -20,6 +22,7 @@ function NavBar() {
             <IconLink img={discWebp} link="https://discord.gg/n6QF9M38GV" name="Discord"/>
             <IconLink img={itunesWebp} link="https://music.apple.com/us/artist/jake-sondy/1775649087" name="Apple Music"/>
             <IconLink img={mailJpg} link="https://mailchi.mp/8b6fb6410d47/sign-up-landing-page" name="email List"/>
+            <IconLink img={gitPng} link="https://github.com/jakesonderman" name="code"/>
         </div>
     );
 }
