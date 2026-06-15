@@ -74,7 +74,7 @@
     grid-template-areas:
     ".    page-link-1    . ."
     ".        .          page-link-2 ."
-    ".        .          . .";
+    "page-link-3        .          . .";
     justify-items: center;
     align-items: top;
 }
@@ -85,7 +85,7 @@
         grid-template-areas:
         ".    page-link-1    ."
         ".        .          page-link-2"
-        ".        .          .";
+        "page-link-3        .          .";
         justify-items: center;
         align-items: top;
     }
@@ -97,7 +97,7 @@
         grid-template-areas:
         ".    page-link-1    ."
         ".        .          page-link-2"
-        ".        .          .";
+        "page-link-3        .          .";
         justify-items: center;
         align-items: top;
     }
@@ -109,8 +109,15 @@
         grid-template-areas:
         "page-link-1"
         "page-link-2"
-        ".";
+        "page-link-3";
     }
+}
+
+.page-link-3 {
+    grid-area: page-link-3;
+    translate: 0% -50%;
+    height: 35%; 
+    width: 65%; 
 }
 
 .page-link-2 {
@@ -118,6 +125,7 @@
     height: 65%; 
     width: 65%; 
 }
+
 .page-link-1 {
     grid-area: page-link-1;
 }

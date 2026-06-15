@@ -4,7 +4,7 @@ import DeskLink from '../components/DeskLink.jsx'
 import { Link } from 'react-router-dom'
 import JakeSondyFrontPng from '../assets/merch/jakeSondyFront.png'
 import cdPng from '../assets/img/cd.png'
-
+import linkPng from '../assets/icons/link.png'
 
 export default function HomePage() {
     return(
@@ -21,7 +21,11 @@ export default function HomePage() {
                         </Link>
                         <Link to="https://soundcloud.com/jake-sondy/that-nicotine-remix-12-mp3?si=0ff9c96a86464ab0bf8c95930e0e8170&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" 
                         className="page-link page-link-2">
-                            <DeskLink img={cdPng} name="mix"/>
+                            <DeskLink img={cdPng} name="fav mix rn"/>
+                        </Link>
+                        <Link to="https://linktr.ee/jake.sondy" 
+                        className="page-link page-link-3">
+                            <DeskLink img={linkPng} name="more links"/>
                         </Link>
                     </div>
                     <NavBar className="navbar"></NavBar>
