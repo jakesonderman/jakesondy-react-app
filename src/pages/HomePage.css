@@ -91,7 +91,7 @@
     }
 }
 
-@media(max-width: 600px) {
+/* @media(max-width: 600px) {
     .desktop {
         grid-template-columns: 100px 100px 100px;
         grid-template-areas:
@@ -101,9 +101,9 @@
         justify-items: center;
         align-items: top;
     }
-}
+} */
 
-@media(max-width: 400px) {
+@media(max-width: 600px) {
     .desktop {
         grid-template-columns: 100px;
         grid-template-areas:
@@ -122,12 +122,12 @@
 
 .page-link-2 {
     grid-area: page-link-2;
-    height: 65%; 
-    width: 65%; 
 }
 
 .page-link-1 {
     grid-area: page-link-1;
+    height: 65%; 
+    width: 65%; 
 }
 
 .page-link {
