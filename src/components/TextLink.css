@@ -16,7 +16,12 @@
     object-fit: fill;
     min-width: 35px;
     width: 6em; 
-    margin: 1em;
+    min-width: 4em;
+    /* margin: 1em; */
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
     text-align: center;
     font-size: 1em;
 }
