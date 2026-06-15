@@ -107,15 +107,15 @@
     .desktop {
         grid-template-columns: 100px;
         grid-template-areas:
-        "page-link-1"
-        "page-link-2"
-        "page-link-3";
+        "page-link-1 ."
+        ". page-link-2"
+        "page-link-3 .";
     }
 }
 
 .page-link-3 {
     grid-area: page-link-3;
-    translate: 0% -50%;
+    translate: 0% -120%;
     height: 35%; 
     width: 65%; 
 }
