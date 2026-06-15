@@ -1,5 +1,7 @@
 import './App.css'
-import {HashRouter as Router, Routes, Route} from 'react-router-dom'
+// import {HashRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+
 import HomePage from './pages/HomePage.jsx'
 import ShirtPage from './pages/ShirtPage.jsx'
 
