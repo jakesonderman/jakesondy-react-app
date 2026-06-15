@@ -131,6 +131,7 @@
     translate: 0% -120%;
     height: 35%; 
     width: 65%; 
+    max-width: 130px;
 }
 
 .page-link-2 {
