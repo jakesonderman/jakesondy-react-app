@@ -111,6 +111,9 @@
         ". page-link-2"
         "page-link-3 .";
     }
+    .page-link {
+        translate: 0% -50%;
+    }
     .page-link-2 {
         width: 50%;
     }
