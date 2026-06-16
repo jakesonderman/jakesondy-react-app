@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import JakeSondyFrontPng from '../assets/merch/jakeSondyFront.png'
 import cdPng from '../assets/img/cd.png'
 import linkPng from '../assets/icons/link.png'
+import phonePng from '../assets/img/phone.png'
 
 export default function HomePage() {
     return(
@@ -26,6 +27,10 @@ export default function HomePage() {
                         <Link to="https://linktr.ee/jake.sondy" 
                         className="page-link page-link-3">
                             <DeskLink img={linkPng} name="more links"/>
+                        </Link>
+                        <Link to="mailto:contact@jakesondy.com" 
+                        className="page-link page-link-4">
+                            <DeskLink img={phonePng} name="contact mee"/>
                         </Link>
                     </div>
                     <NavBar className="navbar"></NavBar>
