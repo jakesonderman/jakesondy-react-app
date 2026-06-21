@@ -17,7 +17,7 @@ export default function HomePage() {
                     WELCOME
                     </h1>
                     <div className="desktop">
-                        <Link to="https://soundcloud.com/jake-sondy/that-nicotine-remix-12-mp3?si=0ff9c96a86464ab0bf8c95930e0e8170&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" 
+                        <Link to="https://on.soundcloud.com/ZdKVjpYur2ptOf3XDj"
                         className="page-link page-link-1">
                             <DeskLink img={cdPng} name="fav mix rn"/>
                         </Link>
