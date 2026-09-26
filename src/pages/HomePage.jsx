@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar.jsx'
 import DeskLink from '../components/DeskLink.jsx'
 import { Link } from 'react-router-dom'
 import JakeSondyFrontPng from '../assets/merch/jakeSondyFront.png'
-import cdPng from '../assets/img/cd.png'
+import lipsPng from '../assets/img/SINGLECOVERBGLESS.png'
 import linkPng from '../assets/icons/link.png'
 import phonePng from '../assets/img/phone.png'
 
@@ -17,16 +17,12 @@ export default function HomePage() {
                     WELCOME
                     </h1>
                     <div className="desktop">
-                        <Link to="https://on.soundcloud.com/ZdKVjpYur2ptOf3XDj"
+                        <Link to="https://too.fm/pbd37gd"
                         className="page-link page-link-1">
-                            <DeskLink img={cdPng} name="fav mix rn"/>
+                            <DeskLink img={lipsPng} name="<~> what u wanna hear <~>"/>
                         </Link>
                         <Link to="/shirt" className="page-link page-link-2">
                             <DeskLink img={JakeSondyFrontPng} name="shirt"/>
-                        </Link>
-                        <Link to="https://linktr.ee/jake.sondy" 
-                        className="page-link page-link-3">
-                            <DeskLink img={linkPng} name="more links"/>
                         </Link>
                         <Link to="mailto:contact@jakesondy.com" 
                         className="page-link page-link-4">

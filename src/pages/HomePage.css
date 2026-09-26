@@ -72,8 +72,8 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 150px 150px 150px;
     grid-template-areas:
-    ".    page-link-1    .                            ."
-    ".        .                    page-link-2       ."
+    "page-link-1    .                 .                            ."
+    ".        .             page-link-2                  ."
     "page-link-3        page-link-4          page-link-4              page-link-4";
     justify-items: center;
     align-items: top;
@@ -83,7 +83,7 @@
     .desktop {
         grid-template-columns: 150px 150px 150px;
         grid-template-areas:
-        ".                  page-link-1    ."
+        "page-link-1                  .    ."
         ".                  .               page-link-2"
         "page-link-3        page-link-4      .";
         justify-items: center;
@@ -95,6 +95,9 @@
     }
     .page-link-4 {
         translate: 0% -120%;
+    }
+    .page-link-1 {
+        translate: 10% 0%;
     }
 }
 
@@ -117,7 +120,7 @@
         width: 50%;
     }
     .page-link-1 {
-        translate: 100% 0%;
+        translate: 15% 0%;
     }
 }
 .page-link-4 {
@@ -141,8 +144,9 @@
 
 .page-link-1 {
     grid-area: page-link-1;
-    height: 65%; 
-    width: 65%; 
+    translate: 40% 0%;
+    height: 150%; 
+    width: 150%; 
 }
 
 .page-link {
