@@ -83,9 +83,9 @@
     .desktop {
         grid-template-columns: 150px 150px 150px;
         grid-template-areas:
-        "page-link-1                  .    ."
-        ".                  .               page-link-2"
-        "page-link-3        page-link-4      .";
+        "page-link-1      .            page-link-2    "
+        ".           .          .            "
+        " .      page-link-3      page-link-4";
         justify-items: center;
         align-items: top;
     }
@@ -94,47 +94,60 @@
         margin-right: 5%;
     }
     .page-link-4 {
-        translate: 0% -120%;
+        translate: 0% 0%;
     }
     .page-link-1 {
-        translate: 10% 0%;
+        translate: 0% 0%;
+    }
+    .page-link-3 {
+        translate: 0% 0%;
     }
 }
-
+@media(max-width: 2000px){
+    .page-link-1 {
+        translate: 80% 0%;
+    }
+}
 
 @media(max-width: 600px) {
     .desktop {
         grid-template-columns: 100px;
         grid-template-areas:
-        "page-link-1 ."
-        ". page-link-2"
+        "page-link-1 page-link-2"
+        ". ."
         "page-link-3 page-link-4";
     }
     .page-link {
         translate: 0% -50%;
     }
     .page-link-4 {
-        translate: 0% -40%;
+        translate: 0% -80%;
     }
     .page-link-2 {
         width: 50%;
+        translate: 0% 0%;
     }
     .page-link-1 {
         translate: 15% 0%;
+        translate: 20% 0%;
+    }
+    .page-link-3 {
+        translate: 60% -15%;
+         height: 35%; 
+         width: 65%;    
     }
 }
 .page-link-4 {
     grid-area: page-link-4; 
-    height: 50%; 
+    height: 100%; 
     width: 50%; 
     max-width: 140px; 
 }
 
 .page-link-3 {
     grid-area: page-link-3;
-    translate: 0% -120%;
-    height: 35%; 
-    width: 65%; 
+    translate: 0% 0%;
+    
     max-width: 130px;
 }
 
@@ -144,7 +157,7 @@
 
 .page-link-1 {
     grid-area: page-link-1;
-    translate: 40% 0%;
+    
     height: 150%; 
     width: 150%; 
 }
